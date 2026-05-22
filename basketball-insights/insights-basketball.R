@@ -1,0 +1,27 @@
+#Working on the insight of the basketball dataset
+
+#Salary
+myplot(Salary)
+myplot(Salary / Games)
+myplot(Salary / FieldGoals) 
+
+#In-Game Metrics 
+myplot(MinutesPlayed)
+myplot(Points)
+
+#In-Game Metrics Normalised 
+myplot(FieldGoals / Games)
+myplot(FieldGoals / FieldGoalAttempts)
+myplot(FieldGoalAttempts / Games)
+myplot(Points / Games)
+
+#Interesting Observation
+myplot(MinutesPlayed / Games)
+myplot(Games)
+
+#Time is Valuable 
+myplot(FieldGoals / MinutesPlayed)
+
+#Player Style
+myplot(Points / FieldGoals)
+
