@@ -8,6 +8,7 @@ Topics covered so far (not all exercises are uploaded yet):
 - Loops
 - Vectors
 - Functions
-- Basic tatistical analysis
+- Basic statistical analysis
+- Matrices
 
 The goal of this repository is to document my progress and build practical data analysis skills.
