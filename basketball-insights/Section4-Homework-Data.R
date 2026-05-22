@@ -1,35 +1,3 @@
-#Dear Student,
-#
-#Welcome to the dataset for the homework exercise.
-#
-#Instructions for this dataset:
-# You have only been supplied vectors. You will need
-# to create the matrices yourself.
-# Matrices:
-# - FreeThrows
-# - FreeThrowAttempts
-#
-#Sincerely,
-#Kirill Eremenko
-#www.superdatascience.com
-
-#Copyright: These datasets were prepared using publicly available data.
-#           However, theses scripts are subject to Copyright Laws. 
-#           If you wish to use these R scripts outside of the R Programming Course
-#           by Kirill Eremenko, you may do so by referencing www.superdatascience.com in your work.
-
-#Comments:
-#Seasons are labeled based on the first year in the season
-#E.g. the 2012-2013 season is preseneted as simply 2012
-
-#Notes and Corrections to the data:
-#Kevin Durant: 2006 - College Data Used
-#Kevin Durant: 2005 - Proxied With 2006 Data
-#Derrick Rose: 2012 - Did Not Play
-#Derrick Rose: 2007 - College Data Used
-#Derrick Rose: 2006 - Proxied With 2007 Data
-#Derrick Rose: 2005 - Proxied With 2007 Data
-
 #Seasons
 Seasons <- c("2005","2006","2007","2008","2009","2010","2011","2012","2013","2014")
 
@@ -48,9 +16,13 @@ KevinDurant_FT <- c(209,209,391,452,756,594,431,679,703,146)
 DerrickRose_FT <- c(146,146,146,197,259,476,194,0,27,152)
 DwayneWade_FT <- c(629,432,354,590,534,494,235,308,189,284)
 #Matrix
-#
-# <put your code here>
-#
+#Creating the Matrix
+FreeThrows <- rbind(KobeBryant_FT, JoeJohnson_FT, LeBronJames_FT, CarmeloAnthony_FT, DwightHoward_FT, ChrisBosh_FT, ChrisPaul_FT, KevinDurant_FT, DerrickRose_FT, DwayneWade_FT)
+
+#rm() to clean up space:
+rm(KobeBryant_FT, JoeJohnson_FT, LeBronJames_FT, CarmeloAnthony_FT, DwightHoward_FT, ChrisBosh_FT, ChrisPaul_FT, KevinDurant_FT, DerrickRose_FT, DwayneWade_FT)
+colnames(FreeThrows) <- Seasons
+rownames(FreeThrows) <- Players
 
 #Free Throw Attempts
 KobeBryant_FTA <- c(819,768,742,564,541,583,451,626,21,241)
@@ -65,5 +37,9 @@ DerrickRose_FTA <- c(205,205,205,250,338,555,239,0,32,187)
 DwayneWade_FTA <- c(803,535,467,771,702,652,297,425,258,370)
 #Matrix
 #
-# <put your code here>
+FreeThrowsAttempts <- rbind(KobeBryant_FTA, JoeJohnson_FTA, LeBronJames_FTA, CarmeloAnthony_FTA, DwightHoward_FTA, ChrisBosh_FTA, ChrisPaul_FTA, KevinDurant_FTA, DerrickRose_FTA, DwayneWade_FTA)
+rm(KobeBryant_FTA, JoeJohnson_FTA, LeBronJames_FTA, CarmeloAnthony_FTA, DwightHoward_FTA, ChrisBosh_FTA, ChrisPaul_FTA, KevinDurant_FTA, DerrickRose_FTA, DwayneWade_FTA)
+colnames(FreeThrowsAttempts) <- Seasons
+rownames(FreeThrowsAttempts) <- Players
+FreeThrowsAttempts 
 #
