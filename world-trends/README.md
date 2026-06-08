@@ -54,8 +54,7 @@ This relationship became even more pronounced in 2013, supporting the theory of 
 
 ## Visualisations:
 ### Life Expectancy vs Fertility Rate (1960)
-![Life Expectancy vs Fertility Rate](/Users/nicolstewart/Desktop/projects/r-course-learning-projects/world-trends/1960.png 
-)
+![Life Expectancy vs Fertility Rate](1960.png)
 
 ### Life Expectancy vs Fertility Rate (2013)
 ![Life Expectancy vs Fertility Rate](2013.png)
