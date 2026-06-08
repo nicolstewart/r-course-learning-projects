@@ -58,7 +58,7 @@ This relationship became even more pronounced in 2013, supporting the theory of 
 )
 
 ### Life Expectancy vs Fertility Rate (2013)
-![Life Expectancy vs Fertility Rate](/Users/nicolstewart/Desktop/projects/r-course-learning-projects/world-trends/2013.png)
+![Life Expectancy vs Fertility Rate](2013.png)
 
 ## Conclusion
 The comparison between 1960 and 2013 highlights substantial global progress in human development. Across all regions, fertility rates declined while life expectancy increased. Although significant regional disparities remain, the overall trends suggest improvements in healthcare, education, and socioeconomic conditions worldwide.
