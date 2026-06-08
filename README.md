@@ -15,7 +15,7 @@ Topics covered so far (not all exercises are uploaded yet):
     - Basic operations
     - Filtering a data frame
     - qplot
-    - buiding
+    - building
     - merging   
 
 The goal of this repository is to document my progress and build practical data analysis skills.
